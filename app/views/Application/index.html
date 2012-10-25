@@ -1,0 +1,14 @@
+#{extends 'main.html' /}
+#{set title:'Fridge Poetry' /}
+
+<h1>Fridge Poetry</h1>
+
+<h2>Recent sets</h2>
+
+<ul>
+#{list items:sets, as:'set'}
+<li>
+	<a href="/sets/${set.id}">${set.title}</a> by ${set.author}
+</li>
+#{/list}
+</ul>

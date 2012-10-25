@@ -1,0 +1,13 @@
+WordSet(set1):
+    author: Christiaan
+    title: food
+
+WordSet(set2):
+    author: Ania
+    title: love
+
+Word(w1):
+    wordSet: set1
+    word: hi
+    x: 10
+    y: 20
